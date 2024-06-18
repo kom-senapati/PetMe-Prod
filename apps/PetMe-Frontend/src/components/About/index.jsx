@@ -37,11 +37,11 @@ function index() {
       <section className="max-w-screen-xl mx-auto p-6 flex flex-col items-center">
         <h1
           ref={aboutSection}
-          className="text-white text-3xl lg:text-5xl py-4"
+          className="hedvig text-white text-3xl lg:text-5xl py-4"
         >
           About
         </h1>
-        <p className="text-[#696C72] text-center pb-4 text-sm lg:text-xl">
+        <p className="cabin text-[#696C72] text-center pb-4 text-sm lg:text-xl">
           Our mission is to provide a platform that connects animal lovers with pets in need
           of a forever home,
           while also providing emergency medical care for stray animals in distress.

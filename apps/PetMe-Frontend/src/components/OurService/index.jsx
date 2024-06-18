@@ -7,7 +7,7 @@ export default function OurService() {
     <section className="w-full h-full p-6 mb-6">
 
       {/*title*/}
-      <div className="text-4xl font-bold text-center my-10 py-3">Our Service</div>
+      <div className="hedvig text-5xl font-bold text-center my-10 py-3">Our Service</div>
 
       <div className="grid sm:grid-cols-3 gap-6 place-items-center">
         {/*c1*/}

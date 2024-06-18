@@ -1,16 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Ubuntu:wght@500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Ubuntu:wght@500&display=swap'); */
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-html {
+/* html {
     font-family: 'Montserrat', sans-serif;
+} */
+
+.hedvig {
+  font-family: "Hedvig Letters Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.cabin {
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
 :root {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }

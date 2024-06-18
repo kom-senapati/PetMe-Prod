@@ -45,7 +45,7 @@ function Header() {
           </a>
         </div>
 
-        <nav className="flex items-center gap-3 justify-center">
+        <nav className="cabin flex items-center gap-3 justify-center">
           { buttons.map((button) => (
             <a
               key={button.id}
